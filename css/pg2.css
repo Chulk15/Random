@@ -1,0 +1,33 @@
+@keyframes perFn{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    }
+    @keyframes per {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+    }
+    section {
+        background: url(../img/background.png) no-repeat center top;
+    }
+    #tit {
+        left: 75px;
+        top: 75px;
+    }
+    
+    section {
+        height: 1000px;
+    }
+    
+    #tit {
+        background: url(../img/background.png) no-repeat;
+        width: 150px;
+        height: 150px;
+    }
