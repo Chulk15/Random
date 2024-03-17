@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+}
+body{
+    font-family:montserrat;
+}
+
+nav{
+    background-color: bisque;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    margin-top:15px;
+    margin-left:50px;
+    border-radius: 15%;
+}
+
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color:cadetblue;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color:rgb(231, 183, 142);
+    padding:3px;
+    border-radius: 5%;
+}
