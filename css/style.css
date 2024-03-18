@@ -55,9 +55,30 @@ ul li{
     font-size:20px;
     margin-bottom: 5px;
     margin-left: 10px;
+    padding: 5px;
 }
 
 ul li a{
     color: cornflowerblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topics{
+    background-color: bisque;
+    border-radius: 5px;
+    border: dotted;
+    width: 500px;
+    margin:50px;
+    float: left;
+}
+
+.Heading1{
+    margin: 15px;
+    color:cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topic-container{
+    width:1000px;
+    display:flexbox;
 }
