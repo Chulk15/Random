@@ -4,13 +4,14 @@
     text-decoration: none;
     list-style: none;
     box-sizing:border-box;
+    
 }
 body{
     font-family:montserrat;
+    background-color:rgb(2, 36, 56);
 }
 
 nav{
-    background-color: bisque;
     height: 80px;
     width: 100%;
 }
@@ -38,11 +39,6 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-a:hover{
-    background-color:rgb(231, 183, 142);
-    padding:3px;
-    border-radius: 5%;
-}
 
 .headings{
     margin-top: 20px;
@@ -56,6 +52,10 @@ ul li{
     margin-bottom: 5px;
     margin-left: 10px;
     padding: 5px;
+}
+
+a:hover{
+    color:aquamarine;
 }
 
 ul li a{
